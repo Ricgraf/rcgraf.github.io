@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>RICGRAF IMPRESSOS</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+    }
+
+    header {
+      background: #000;
+      color: white;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 24px;
+    }
+
+    header a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+    }
+
+    .hero {
+      background: linear-gradient(90deg, #000, #333);
+      color: white;
+      padding: 80px 20px;
+      text-align: center;
+    }
+
+    .hero h2 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 15px 30px;
+      background: #25D366;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 18px;
+    }
+
+    .section {
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    .galeria {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 15px;
+      padding: 20px;
+    }
+
+    .galeria img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .servicos {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 25px;
+      width: 250px;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+
+    .depoimentos {
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .depoimento {
+      background: white;
+      padding: 20px;
+      margin: 10px 0;
+      border-left: 5px solid #25D366;
+    }
+
+    footer {
+      background: #000;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .whatsapp {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #25D366;
+      color: white;
+      padding: 15px;
+      border-radius: 50%;
+      text-decoration: none;
+      font-size: 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>RICGRAF</h1>
+  <div>
+    <a href="#servicos">Serviços</a>
+    <a href="#contato">Contato</a>
+  </div>
+</header>
+
+<div class="hero">
+  <h2>Impressos rápidos e de qualidade em São Vicente</h2>
+  <p>Cartões, panfletos e banners com acabamento profissional</p>
+  <a class="btn" href="https://wa.me/5513991984375">Fazer orçamento</a>
+</div>
+
+<div class="section">
+  <h2>Trabalhos realizados</h2>
+
+  <div class="galeria">
+    <img src="img1.jpg">
+    <img src="img2.jpg">
+    <img src="img3.jpg">
+    <img src="img4.jpg">
+  </div>
+</div>
+
+<div id="servicos" class="section">
+  <h2>Serviços</h2>
+
+  <div class="servicos">
+    <div class="card">
+      <h3>Cartões de visita</h3>
+      <p>Alta qualidade para causar boa impressão</p>
+    </div>
+
+    <div class="card">
+      <h3>Panfletos</h3>
+      <p>Divulgação eficiente para seu negócio</p>
+    </div>
+
+    <div class="card">
+      <h3>Banners</h3>
+      <p>Destaque sua marca com impacto visual</p>
+    </div>
+  </div>
+</div>
+
+<div class="section depoimentos">
+  <h2>O que nossos clientes dizem</h2>
+
+  <div class="depoimento">
+    <p>"Serviço rápido e de ótima qualidade!"</p>
+  </div>
+
+  <div class="depoimento">
+    <p>"Meus cartões ficaram perfeitos!"</p>
+  </div>
+</div>
+
+<footer id="contato">
+  <p>WhatsApp: (seu número)</p>
+</footer>
+
+<a class="whatsapp" href="https://wa.me/5513991984375">W</a>
+
+</body>
+</html>
